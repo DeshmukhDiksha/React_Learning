@@ -1,1 +1,1 @@
-This is just a rep for react learning and demo examples.
+This is just a repo for react learning and demo examples.
