@@ -1,12 +1,5 @@
 import React from 'react';
 import ReactDOM  from 'react-dom/client';
-// const parent
-{/* <div id= "parent">
-    <div id = 'child'>
-        <h1>This is h1 heading tag</h1>
-        <h1>This is h2 teading tag</h1>
-    </div>
-</div> */}
 
 const parent = React.createElement("div", 
 {id:"parent1"},
