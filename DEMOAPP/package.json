@@ -4,6 +4,8 @@
   "description": "This is demo by Diksha",
   "main": "App.js",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"pracel build index.html",
     "test": "jest"
   },
   "repository": {
