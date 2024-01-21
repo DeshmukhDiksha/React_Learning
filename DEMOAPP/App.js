@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM  from 'react-dom/client';
 
-const parent = React.createElement("div", 
-{id:"parent1"},
-[React.createElement('div',{id:'child1'},
-[React.createElement('h1',{},"This is h1 heading tag"),React.createElement('h2',{},"This is h2 heading tag")])
-,React.createElement('div',{id:'child2'},
-[React.createElement('h1',{},"This is h1 heading tag"),React.createElement('h2',{},"This is h2 heading tag")])
-]);
+// const parent = React.createElement("div", 
+// {id:"parent1"},
+// [React.createElement('div',{id:'child1'},
+// [React.createElement('h1',{},"This is h1 heading tag"),React.createElement('h2',{},"This is h2 heading tag")])
+// ,React.createElement('div',{id:'child2'},
+// [React.createElement('h1',{},"This is h1 heading tag"),React.createElement('h2',{},"This is h2 heading tag")])
+// ]);
 
-const heading = React.createElement("h1",{id:'heading'},"Hellow world from react!!");
+
+// const heading = React.createElement("h1",{id:'heading'},"Hellow world from react!!");
+const heading = <h1 id="heading">Hello world from React using JSX!!</h1>
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent);
+root.render(heading);
